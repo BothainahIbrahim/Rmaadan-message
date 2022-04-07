@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "AlRiyadh2030";
+    src: url(AlRiyadh2030-Light.ttf) format('truetype');
+}
+
+* {
+
+   
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    padding-top: 20px;
+    background-image:
+    url(https://i.pinimg.com/originals/6a/e8/fd/6ae8fd9357f2b00273b57023fca827a3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.text-box {
+    color: wheat;
+    padding: 24px;
+    border-radius: 12px;
+    direction: rtl;
+    background-color: rgb(11, 11, 32); 
+    font-size: 25px;
+    text-align: center;
+    font-family: 'AlRiyadh2030';
+    position: absolute;
+    top:18%;
+    left:35%;
+    transform: translateY(-25%, -25%);
+    animation: mover 6s linear infinite;
+
+}
+
+span {
+    display: inline-block;
+}
+
+@keyframes mover {
+
+   
+
+    50% {
+       
+        transform: translateY(30px);
+    }
+
+
+}
+
+}

@@ -28,7 +28,7 @@ body
     font-family: 'Noto Kufi Arabic', 'sans-serif';
     position: absolute;
     top:18%;
-    left:35%;
+    left:25%;
     transform: translateY(-25%, -25%);
     animation: mover 6s linear infinite;
 

@@ -2,7 +2,7 @@
 
 * {
 
-   
+   background-color:#f8f8f8
     margin: 0px;
     padding: 0px;
    
@@ -59,6 +59,7 @@ span {
 @media screen and (max-width: 800px) {
   .text-box {
     margin-top: 200px;
+     font-size: 18px;
     width: auto; /* The width is 100%, when the viewport is 800px or smaller */
   }
 

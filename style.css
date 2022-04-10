@@ -2,7 +2,7 @@
 
 * {
 
-   background-color:#f8f8f8
+   /*background-color:#f8f8f8*/
     margin: 0px;
     padding: 0px;
    
@@ -16,6 +16,7 @@ body
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+   background-color:#f8f8f8;
    
 }
 html 
@@ -56,11 +57,28 @@ span {
 
 }
 
-@media screen and (max-width: 800px) {
+
+
+@media screen and (max-width: 900px) {
   .text-box {
-    margin-top: 60px;
-     font-size: 18px;
-    width: auto; /* The width is 100%, when the viewport is 800px or smaller */
+    margin-top: 15px;
+    margin-right: 36px;
+    font-size: 18px;
+    width: 200px; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  audio{
+      width: 150px;
   }
 
+  body{
+    
+    background-image:
+    url(https://i.pinimg.com/originals/6a/e8/fd/6ae8fd9357f2b00273b57023fca827a3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color:#f8f8f8;
+    background-size: 400px;
+    background-position: center bottom;
+  }
 }

@@ -61,7 +61,7 @@ span {
 
 @media screen and (max-width: 900px) {
   .text-box {
-    margin-top: 5px;
+    margin-top: 0px;
     /*margin-right: 36px;*/
     font-size: 18px;
     width: 200px; /* The width is 100%, when the viewport is 800px or smaller */
